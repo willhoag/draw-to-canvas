@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+index.js
+browser.js
+npm-debug.log
