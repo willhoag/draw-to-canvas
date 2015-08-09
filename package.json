@@ -11,7 +11,7 @@
     "url": "https://github.com/willhoag/draw-to-canvas/issues"
   },
   "dependencies": {
-    "force-canvas-context": "^0.0.3"
+    "force-canvas-context": "^0.0.4"
   },
   "devDependencies": {
     "babel": "^5.8.21",
