@@ -1,7 +1,7 @@
 {
   "name": "draw-to-canvas",
   "description": "draw from one canvas to another with some sanity checks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Will Hoag",
     "email": "dev@willhoag.com",
