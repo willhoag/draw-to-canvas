@@ -33,7 +33,6 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "browser": "browser.js",
   "maintainers": [
     {
       "name": "devhoag",
@@ -45,9 +44,7 @@
     "url": "git://github.com/willhoag/draw-to-canvas.git"
   },
   "scripts": {
-    "build:browser": "browserify -t babelify --standalone forceCanvasContext index.es6 --extension .es6 > browser.js",
-    "build:node": "babel index.es6 > index.js",
-    "build": "npm run build:node && npm run build:browser",
+    "build": "babel index.es6 > index.js",
     "prepublish": "npm test && npm run build",
     "test": "standard index.es6 && browserify -t babelify --extension .es6 test.es6 | tape-run | tap-spec"
   }
