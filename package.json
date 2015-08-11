@@ -1,7 +1,7 @@
 {
   "name": "draw-to-canvas",
   "description": "draw from one canvas to another with some sanity checks",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Will Hoag",
     "email": "dev@willhoag.com",
@@ -11,7 +11,7 @@
     "url": "https://github.com/willhoag/draw-to-canvas/issues"
   },
   "dependencies": {
-    "force-canvas-context": "^0.0.4"
+    "force-canvas-context": "~0.0.4"
   },
   "devDependencies": {
     "babel": "^5.8.21",
